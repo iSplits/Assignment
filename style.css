@@ -1,23 +1,50 @@
 html, body {
   height: 100%;
-  width: 100%;
-  background-color: darkgray;
-  background-image: url('background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-#mylogo{
-  color: darkmagenta;
-  text-align: center;
-}
-footer {
-  text-align:center;
-  position: fixed; 
-  bottom: 0; 
   width:100%;
+  font-size:15px;
 }
-div {
-  position: relative;
-  font-size:50;
+
+.flex-container {
+  display: flex;
+  padding: 50px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family:  Family-name: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
+  font-weight: 400;
+  padding: 10px;
+}
+
+
+h2 {
+  color: hsl(0, 0%, 95%);
+  font-family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display);
+font-weights: 700;
+padding: 10px;
+  
+}
+
+#sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.lmore {
+  border-radius: 18px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 2px 1px;
+  align-self: center;
+  cursor: pointer;
 }
